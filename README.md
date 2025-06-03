@@ -42,7 +42,8 @@
 Đảm bảo cấu trúc thư mục dự án của bạn giống như sau để ứng dụng có thể tìm thấy các thành phần và dữ liệu:
 
 
-![Screenshot 2025-06-03 090542](https://github.com/user-attachments/assets/4b33a1c8-5e8e-4f95-b9fd-20852dcf16b4)
+![Screenshot 2025-06-03 090905](https://github.com/user-attachments/assets/4ad2abb2-b31a-4157-8988-365e9d021454)
+
 
 ### 3. Tải mã nguồn
 
