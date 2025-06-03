@@ -41,35 +41,8 @@
 
 Đảm bảo cấu trúc thư mục dự án của bạn giống như sau để ứng dụng có thể tìm thấy các thành phần và dữ liệu:
 
-your_project/
-├── main.py                     # File chính để khởi chạy ứng dụng
-├── assets/
-│   ├── images/
-│   │   └── login/
-│   │       ├── icon_user.png   # Icon người dùng cho form đăng nhập/đăng ký
-│   │       └── icon_pass.png   # Icon mật khẩu cho form đăng nhập/đăng ký
-│   └── customer.json           # Dữ liệu khách hàng mẫu ban đầu (có thể di chuyển vào data/)
-├── controllers/
-│   ├── auth_controller.py      # Điều khiển logic đăng nhập/đăng ký
-│   ├── bat_tat_screen_controller.py # Điều khiển chuyển đổi màn hình
-│   ├── khach_hang_controller.py # Điều khiển logic quản lý khách hàng (CRUD)
-│   ├── bao_cao_controller.py   # Điều khiển logic báo cáo cửa hàng
-│   └── sales_chart_controller.py # Điều khiển logic biểu đồ doanh số
-├── models/
-│   ├── login_model.py          # Xử lý dữ liệu tài khoản người dùng
-│   └── khach_hang_model.py     # Xử lý dữ liệu khách hàng
-├── views/
-│   ├── login_view.py           # Giao diện đăng nhập
-│   ├── register_view.py        # Giao diện đăng ký tài khoản mới
-│   ├── chon_chuc_nang_view.py  # Giao diện chọn chức năng chính
-│   ├── quan_li_chinh_view.py   # Giao diện quản lý khách hàng chính
-│   ├── market_analysis_view.py # Giao diện đánh giá thị trường
-│   ├── bao_cao_view.py         # Giao diện báo cáo cửa hàng
-│   └── sales_chart_view.py     # Giao diện thống kê sản phẩm bán chạy
-└── data/
-├── taikhoan.json           # Lưu trữ thông tin tài khoản người dùng (sẽ tự tạo nếu không có)
-└── customers.json          # Lưu trữ thông tin khách hàng (sẽ tự tạo nếu không có)
 
+![Screenshot 2025-06-03 090542](https://github.com/user-attachments/assets/4b33a1c8-5e8e-4f95-b9fd-20852dcf16b4)
 
 ### 3. Tải mã nguồn
 
