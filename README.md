@@ -23,6 +23,7 @@
     * `numpy`: Hỗ trợ tính toán số học cho `matplotlib`.
     * `requests`: Gọi API (nếu có các tính năng phân tích thị trường).
     * `os`, `sys`, `datetime`, `collections`, `logging`, `messagebox`.
+    * Cách đóng gói: python -m pyinstaller --onefile --windowed --icon=logo.ico --add-data "assets;assets" --add-data "data;data" main.py
 * **Kiến trúc:** Model-View-Controller (MVC).
 * **IDE khuyến nghị:** Visual Studio Code, PyCharm.
 * **Quản lý phiên bản:** Git/GitHub.
